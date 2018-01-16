@@ -1,0 +1,39 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <!--Title Tube-->
+    <div class="title-tube" style="background-image:url(../../static/image/tb06.gif)">
+        <div class="title-tube-box"><p>17 범주선택</p></div>
+    </div>
+    <div style="text-align: center">
+    	<!--title selected-->
+        <div class ="title-box">
+        	<div class ="title-box-square"><p></p></div>
+        	<div class ="title-box-text"><p>제목 리스트에서 선택한 첫번째 글</p></div>
+        </div>
+        <!-- Drop down area-->
+		<br>
+		<!--Select 1-->
+		<select onchange="location.href='{% url 'coreterm' %}'">
+			<option selected="">-----------17범주------------</option>
+			<option>A1</option>
+			<option>A2</option>
+			<option>A3</option>
+		</select>
+		
+
+		<!--Content area-->
+		<div class="content-box-flow">
+			<h4 style="margin: 0px">선택>경로>선택>표시>부분 (미구현)</h4>
+		</div>
+		<div class="content-box-main">
+		</div>
+		<div class="content-box-foot">
+			<div style="position:absolute;right: 0px;bottom: 0px;border: 0px">
+				<a><img src="../../static/image/rewrite.gif"></a>
+				<a><img src="../../static/image/save.gif"></a>
+				<a><img src="../../static/image/print.gif"></a>
+			</div>
+		</div>
+    </div>
+{% endblock %}

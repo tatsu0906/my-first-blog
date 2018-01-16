@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <!--Title Tube-->
+    <div class="title-tube" style="background-image:url(../../static/image/tb00_3.gif)">
+        <div class="title-tube-box"><p>7단계 선택</p></div>
+    </div>
+    <div style="text-align: center">
+        <a onclick="location.href='{% url 'matrix' %}'">
+            <img src="../../static/image/7step.gif">
+        </a>
+    </div>
+{% endblock %}
