@@ -3,69 +3,78 @@
 {% block content %}
     <!--Title Tube-->
     <div class="title-tube" style="background-image:url(../../static/image/tb00_3.gif)">
-        <div class="title-tube-box"><p>24 과정선택</p></div>
+        <div class="title-tube-box"><p>체 계</p></div>
     </div>
     <div>
     	<!--title selected-->
         <div class ="title-box">
         	<div class ="title-box-square"><p></p></div>
-        	<div class ="title-box-text"><p>제목 리스트에서 선택한 첫번째 글</p></div>
+        	<!--제목바-->
+        	<div class ="title-box-text"><p></p></div>
         </div>
         <!-- Drop down area-->
+        <!--12345TABLE
     	<table border ="1">
   			<tr>
-    			<th width="180px">1</th>
-    			<th width="180px">2</th>
-    			<th width="180px">3</th>
-    			<th width="180px">4</th>
-    			<th width="180px">5</th>
+    			<th width="200px">1</th>
+    			<th width="200px">2</th>
+    			<th width="200px">3</th>
+    			<th width="200px">4</th>
+    			<th width="200px">5</th>
   			</tr>
 		</table>
+		-->
 		<br>
 		<!--Select 1-->
 		<select onchange="location.href='{% url '17' %}'">
-			<option selected="">통합계획인식</option>
-			<option>A1</option>
-			<option>A2</option>
-			<option>A3</option>
+			<option selected="">주제 성공 체계</option>
+			<option>COOPERATION SUBJECT</option>
+			<option>TYPE</option>
+			<option>CHARACTERISICS</option>
+			<option>TASK ORGANIZATION</option>
+			<option>TASK LIST</option>
 		</select>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<!--Select 2-->
 		<select onchange="location.href='{% url '17' %}'">
-			<option selected="">상급기관 통합계회인식</option>
-			<option>B1</option>
-			<option>B2</option>
-			<option>B3</option>
+			<option selected="">성공 양식 체계</option>
+			<option>MISSION</option>
+			<option>ENVIRONMENT / SITUATION</option>
+			<option>POWER PROJECT / EXECUTION</option>
+			<option>SUPPORT / LOGIC &amp; ADMINISTRATION</option>
+			<option>COMMAND</option>
 		</select>
-		&nbsp;&nbsp;&nbsp;
 		<!--Select 3-->
 		<select onchange="location.href='{% url '17' %}'">
-			<option selected="">해당계급 통합계획인식</option>
-			<option>C1</option>
-			<option>C2</option>
-			<option>C3</option>
+			<option selected="">절차 지원 체계</option>
+			<option>PLANNING INITIATIVE/ MISSION</option>
+			<option>PLANNING DEVELOPMENT</option>
+			<option>ANALYSIS</option>
+			<option>COMPRISON/ APPROVAL</option>
+			<option>PLAN ORDER</option>
 		</select>
-		&nbsp;&nbsp;&nbsp;
 		<!--Select 4-->
 		<select onchange="location.href='{% url '17' %}'">
-			<option selected="">하급기관 통합계획인식</option>
-			<option>d1</option>
-			<option>d2</option>
-			<option>d3</option>
+			<option selected="">절차 지원 체계</option>
+			<option>지원관계</option>
+			<option>상호작용관계</option>
+			<option>단일절차 표준화</option>
+			<option>융합</option>
+			<option>자동화된 과업 흐름</option>
 		</select>
-		&nbsp;&nbsp;&nbsp;
 		<!--Select 5-->
 		<select onchange="location.href='{% url '17' %}'">
-			<option selected="">활동주체 통합계획인식</option>
-			<option>e1</option>
-			<option>e2</option>
-			<option>e3</option>
+			<option selected="">지원 통솔통제 체계</option>
+			<option>COMMAND</option>
+			<option>통제 체계</option>
+			<option>컴퓨터 체계</option>
+			<option>통신 체계</option>
+			<option>정보 체계</option>
 		</select>
 
 		<!--Content area-->
 		<div class="content-box-flow">
-			<h4 style="margin: 0px">선택>경로>선택>표시>부분 (미구현)</h4>
+			<!--선택경로표시(미구현)-->
+			<h4 style="margin: 0px"></h4>
 		</div>
 		<div class="content-box-main">
 		</div>
