@@ -1,9 +1,9 @@
-{% extends 'blog/base.html' %}
+{% extends 'blog/Yerim/base.html' %}
 
 {% block content %}
     <!--Title Tube-->
     <div class="title-tube" style="background-image:url(../../static/image/tb06.gif)">
-        <div class="title-tube-box"><p>글 쓰 기</p></div>
+        <div class="title-tube-box"><p>구 조</p></div>
     </div>
     <div style="text-align: center">
     	<!--title selected-->
@@ -12,7 +12,18 @@
         	<!--제목바-->
         	<div class ="title-box-text"><p></p></div>
         </div>
+        <!-- Drop down area-->
 		<br>
+		<!--Select 1-->
+		<select onchange="location.href='{% url 'Yerim_coreterm' %}'">
+			<option selected="">------구 조--------</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		
 
 		<!--Content area-->
 		<div class="content-box-flow">

@@ -1,9 +1,9 @@
-{% extends 'blog/base.html' %}
+{% extends 'blog/MainSite/base.html' %}
 
 {% block content %}
     <!--Title Tube-->
-    <div class="title-tube" style="background-image:url(../../static/image/tb07.gif)">
-        <div class="title-tube-box"><p>재 창 조</p></div>
+    <div class="title-tube" style="background-image:url(../../static/image/tb06.gif)">
+        <div class="title-tube-box"><p>구 조</p></div>
     </div>
     <div style="text-align: center">
     	<!--title selected-->
@@ -15,13 +15,13 @@
         <!-- Drop down area-->
 		<br>
 		<!--Select 1-->
-		<select onchange="location.href='{% url 'board' %}'">
-			<option selected="">--------재 창 조---------</option>
-			<option>SUBJECT</option>
-			<option>TASK</option>
-			<option>POLITICS</option>
-			<option>ECONOMICS</option>
-			<option>STRUCTURE</option>
+		<select onchange="location.href='{% url 'MainSite_coreterm' %}'">
+			<option selected="">------구 조--------</option>
+			<option>IDENTITY</option>
+			<option>BEHAVIOR</option>
+			<option>RELATIVITY</option>
+			<option>SUPPORT RELATIONSHIP</option>
+			<option>COMMAND</option>
 		</select>
 		
 

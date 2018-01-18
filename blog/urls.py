@@ -2,20 +2,40 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-	#front page
-    url(r'^$', views.render_index, name='index'),
-    url(r'^7$', views.render_7, name='7'),
-    url(r'^matrix$', views.render_matrix, name='matrix'),
-    url(r'^title$', views.render_title, name='title'),
-	url(r'^24$', views.render_24, name='24'),
-	url(r'^17$', views.render_17, name='17'),
-	url(r'^coreterm$', views.render_coreterm, name='coreterm'),
-	url(r'^suppleterm$', views.render_suppleterm, name='suppleterm'),
-	url(r'^board$', views.render_board, name='board'),
+
+    #Main_Site
+    url(r'^MainSite$', views.render_MainSite_index, name='MainSite_index'),
+    url(r'^MainSite/7$', views.render_MainSite_7, name='MainSite_7'),
+    url(r'^MainSite/matrix$', views.render_MainSite_matrix, name='MainSite_matrix'),
+    url(r'^MainSite/title$', views.render_MainSite_title, name='MainSite_title'),
+    url(r'^MainSite/24$', views.render_MainSite_24, name='MainSite_24'),
+    url(r'^MainSite/17$', views.render_MainSite_17, name='MainSite_17'),
+    url(r'^MainSite/coreterm$', views.render_MainSite_coreterm, name='MainSite_coreterm'),
+    url(r'^MainSite/suppleterm$', views.render_MainSite_suppleterm, name='MainSite_suppleterm'),
+    url(r'^MainSite/board$', views.render_MainSite_board, name='MainSite_board'),
+
+    #SnG
+    url(r'^SnG$', views.render_SnG_index, name='SnG_index'),
+    url(r'^SnG/7$', views.render_SnG_7, name='SnG_7'),
+    url(r'^SnG/matrix$', views.render_SnG_matrix, name='SnG_matrix'),
+    url(r'^SnG/title$', views.render_SnG_title, name='SnG_title'),
+    url(r'^SnG/24$', views.render_SnG_24, name='SnG_24'),
+    url(r'^SnG/17$', views.render_SnG_17, name='SnG_17'),
+    url(r'^SnG/coreterm$', views.render_SnG_coreterm, name='SnG_coreterm'),
+    url(r'^SnG/suppleterm$', views.render_SnG_suppleterm, name='SnG_suppleterm'),
+    url(r'^SnG/board$', views.render_SnG_board, name='SnG_board'),
+
+    #Yerim
+    url(r'^Yerim$', views.render_Yerim_index, name='Yerim_index'),
+    url(r'^Yerim/7$', views.render_Yerim_7, name='Yerim_7'),
+    url(r'^Yerim/matrix$', views.render_Yerim_matrix, name='Yerim_matrix'),
+    url(r'^Yerim/title$', views.render_Yerim_title, name='Yerim_title'),
+    url(r'^Yerim/24$', views.render_Yerim_24, name='Yerim_24'),
+    url(r'^Yerim/17$', views.render_Yerim_17, name='Yerim_17'),
+    url(r'^Yerim/coreterm$', views.render_Yerim_coreterm, name='Yerim_coreterm'),
+    url(r'^Yerim/suppleterm$', views.render_Yerim_suppleterm, name='Yerim_suppleterm'),
+    url(r'^Yerim/board$', views.render_Yerim_board, name='Yerim_board'),
 
 
 
-    #url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
-    #url(r'^post/new/$', views.post_new, name='post_new'),
-    #url(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
 ]

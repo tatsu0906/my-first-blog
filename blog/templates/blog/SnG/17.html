@@ -1,9 +1,9 @@
-{% extends 'blog/base.html' %}
+{% extends 'blog/SnG/base.html' %}
 
 {% block content %}
     <!--Title Tube-->
-    <div class="title-tube" style="background-image:url(../../static/image/tb00.gif)">
-        <div class="title-tube-box"><p>체계 국력 요소</p></div>
+    <div class="title-tube" style="background-image:url(../../static/image/tb06.gif)">
+        <div class="title-tube-box"><p>구 조</p></div>
     </div>
     <div style="text-align: center">
     	<!--title selected-->
@@ -15,28 +15,13 @@
         <!-- Drop down area-->
 		<br>
 		<!--Select 1-->
-		<select onchange="location.href='{% url 'suppleterm' %}'">
-			<option selected="">체계 국력 요소</option>
-			<option>과업</option>
-			<option>환경</option>
-			<option>절차</option>
-			<option>통솔</option>
-			<option>인간</option>
-			<option>이론</option>
-			<option>과학</option>
-			<option>통신</option>
-			<option>장비</option>
-			<option>시설</option>
-			<option>정치</option>
-			<option>외교</option>
-			<option>경제</option>
-			<option>군사</option>
-			<option>정보</option>
-			<option>교육</option>
-			<option>구조</option>
-			<option>실행</option>
-			<option>사회</option>
-			<option>문화</option>
+		<select onchange="location.href='{% url 'SnG_coreterm' %}'">
+			<option selected="">------구 조--------</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
 		</select>
 		
 

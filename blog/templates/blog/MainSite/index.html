@@ -1,0 +1,22 @@
+{% extends 'blog/MainSite/base.html' %}
+
+{% block content %}
+    <!--Select Mode-->
+    <div style="margin:20px"><img src="../../static/image/index-page2_01.gif"></div>
+
+    <div>
+        <div style="float:left">
+            <img src="../../static/image/index-page2_02.gif">
+        </div>
+        <!--2 BNT-->
+        <div style="display:inline-block;">
+            <div>
+                <img src="../../static/image/index-page2_03.gif" class="main-btn"
+                onclick="location.href='{% url 'MainSite_7' %}'">
+            </div>
+            <div>
+                <img src="../../static/image/index-page2_04.gif" class="main-btn">
+            </div>
+        </div>
+    </div>
+{% endblock %}
