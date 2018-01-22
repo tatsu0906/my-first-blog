@@ -5,7 +5,7 @@
     <div class="title-tube" style="background-image:url(../../static/image/tb06.gif)">
         <div class="title-tube-box"><p>글 쓰 기</p></div>
     </div>
-    <div style="text-align: center">
+    <div>
     	<!--title selected-->
         <div class ="title-box">
         	<div class ="title-box-square"><p></p></div>
@@ -19,7 +19,14 @@
 			<!--선택경로표시(미구현)-->
 			<h4 style="margin: 0px"></h4>
 		</div>
-		<div class="content-box-main">
+		<div class="content-box-main" style="padding: 10px">
+			제목<br>
+			<input type="text" name="title" size="100">
+			<br><br>
+			내용<br>
+			<textarea name="content" cols="150" rows="50" style="overflow-y: auto"></textarea>
+			<br><br>
+			<input type="button" name="send" value="저장">
 		</div>
 		<div class="content-box-foot">
 			<div style="position:absolute;right: 0px;bottom: 0px;border: 0px">
