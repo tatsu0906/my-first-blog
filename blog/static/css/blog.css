@@ -80,15 +80,15 @@ height: 100%;
 
 .title-list{
     width: 750px;
-    height: 22px;
+    height: 25px;
     margin:0px;
     background-color: #DDDDDD;
     margin-bottom: 25px;
 }
 
 .title-list-box{
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     background-color: #B9E2FA;
     display:table-cell;
     text-align:center;

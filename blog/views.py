@@ -43,6 +43,11 @@ def render_MainSite_board(request):
     return render(request, 'blog/MainSite/board.html', {})
 
 
+
+def render_MainSite_2020(request):
+    return render(request, 'blog/MainSite/2020matrix.html', {})
+
+
 #########################################################
 
 # SnG

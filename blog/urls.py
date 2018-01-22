@@ -14,6 +14,8 @@ urlpatterns = [
     url(r'^MainSite/suppleterm$', views.render_MainSite_suppleterm, name='MainSite_suppleterm'),
     url(r'^MainSite/board$', views.render_MainSite_board, name='MainSite_board'),
 
+    url(r'^MainSite/2020matrix$', views.render_MainSite_2020, name='MainSite_2020'),
+
     #SnG
     url(r'^SnG$', views.render_SnG_index, name='SnG_index'),
     url(r'^SnG/7$', views.render_SnG_7, name='SnG_7'),
