@@ -112,3 +112,8 @@ def render_Yerim_board(request):
     return render(request, 'blog/Yerim/board.html', {})    
 
 #########################################################
+
+#Other Site
+
+def render_modPage(request):
+    return render(request, 'blog/modPage.html', {})    
