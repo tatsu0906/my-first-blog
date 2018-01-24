@@ -111,6 +111,14 @@ def render_Yerim_suppleterm(request):
 def render_Yerim_board(request):
     return render(request, 'blog/Yerim/board.html', {})    
 
+
+def render_Yerim_introduction(request):
+    return render(request, 'blog/Yerim/introduction.html', {})
+
+def render_Yerim_purpose(request):
+    return render(request, 'blog/Yerim/purpose.html', {})
+
+
 #########################################################
 
 #Other Site

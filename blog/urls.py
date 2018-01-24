@@ -38,6 +38,9 @@ urlpatterns = [
     url(r'^Yerim/suppleterm$', views.render_Yerim_suppleterm, name='Yerim_suppleterm'),
     url(r'^Yerim/board$', views.render_Yerim_board, name='Yerim_board'),
 
+    url(r'^Yerim/introduction$', views.render_Yerim_introduction, name='Yerim_introduction'),
+    url(r'^Yerim/purpose$', views.render_Yerim_purpose, name='Yerim_purpose'),
+
     #Other Site
     url(r'^modPage$', views.render_modPage, name='modPage'),
 
