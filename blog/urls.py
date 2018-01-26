@@ -27,6 +27,9 @@ urlpatterns = [
     url(r'^SnG/suppleterm$', views.render_SnG_suppleterm, name='SnG_suppleterm'),
     url(r'^SnG/board$', views.render_SnG_board, name='SnG_board'),
 
+    url(r'^SnG/introduction$', views.render_SnG_introduction, name='SnG_introduction'),
+    url(r'^SnG/purpose$', views.render_SnG_purpose, name='SnG_purpose'),
+
     #Yerim
     url(r'^Yerim$', views.render_Yerim_index, name='Yerim_index'),
     url(r'^Yerim/7$', views.render_Yerim_7, name='Yerim_7'),

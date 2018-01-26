@@ -79,6 +79,12 @@ def render_SnG_suppleterm(request):
 def render_SnG_board(request):
     return render(request, 'blog/SnG/board.html', {})    
 
+def render_SnG_introduction(request):
+    return render(request, 'blog/SnG/introduction.html', {})
+
+def render_SnG_purpose(request):
+    return render(request, 'blog/SnG/purpose.html', {})
+
 
 #########################################################
 
